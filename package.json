@@ -1,13 +1,14 @@
 {
   "name": "eslint-config-fronttigger",
-  "version": "0.0.1",
-  "description": "fronttigger custom eslint",
+  "version": "0.0.2",
+  "description": "fronttigger custom lint",
   "main": "index.js",
   "files": [
     "rules",
     "index.js",
     "prettierrc.js",
-    "react.js"
+    "react.js",
+    "stylelint.js"
   ],
   "scripts": {
     "lint": "eslint './**/*.{js,ts,tsx}'",
@@ -50,6 +51,8 @@
   "keywords": [
     "eslint",
     "eslintconfig",
+    "prettier",
+    "stylelint",
     "config",
     "javascript",
     "typescript",
@@ -57,5 +60,13 @@
     "tigger"
   ],
   "author": "fronttigger",
+  "homepage": "https://github.com/fronttigger/eslint-config-fronttigger",
+  "bugs": {
+    "url": "https://github.com/fronttigger/eslint-config-fronttigger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fronttigger/eslint-config-fronttigger"
+  },
   "license": "MIT"
 }
