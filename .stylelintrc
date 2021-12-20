@@ -1,0 +1,6 @@
+{
+  "extends": "./stylelintrc.js",
+  "parserOptions": {
+    "requireConfigFile": false
+  }
+}
