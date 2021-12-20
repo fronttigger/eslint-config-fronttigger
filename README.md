@@ -43,6 +43,6 @@ react
 
 {
     "root": true,
-    "extends": ["eslint-config-fronttigger/stylelint"],
+    "extends": ["eslint-config-fronttigger/stylelintrc"],
 }
 ```
