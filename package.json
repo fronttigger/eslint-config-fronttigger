@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fronttigger",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "fronttigger custom lint",
   "main": "index.js",
   "files": [
