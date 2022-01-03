@@ -4,10 +4,20 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
+        groups: ['external', 'builtin', 'parent', 'sibling', 'index'],
         pathGroups: [
           {
             pattern: 'react',
+            group: 'external',
+            position: 'before',
+          },
+          {
+            pattern: 'next',
+            group: 'external',
+            position: 'before',
+          },
+          {
+            pattern: 'next/**',
             group: 'external',
             position: 'before',
           },
@@ -17,12 +27,7 @@ module.exports = {
             position: 'before',
           },
         ],
-        pathGroupsExcludedImportTypes: ['react'],
         'newlines-between': 'always',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true,
-        },
       },
     ],
     'import/newline-after-import': 'error',
