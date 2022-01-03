@@ -8,7 +8,6 @@ module.exports = {
     'standard',
     ...['./rules/base', './rules/import', './rules/prettier'].map(require.resolve),
   ],
-  plugins: ['jest'],
   env: {
     commonjs: true,
     es6: true,
