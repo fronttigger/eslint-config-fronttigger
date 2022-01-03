@@ -69,7 +69,7 @@ react
 
 ```json
 {
-  "lint": "eslint './**/*.{js,ts,tsx}'",
-  "lint:fix": "npm run lint -- --fix"
+  "lint:style": "stylelint './**/*.{js,ts,tsx}'",
+  "lint:style:fix": "stylelint './**/*.{js,ts,tsx}' --fix"
 }
 ```
