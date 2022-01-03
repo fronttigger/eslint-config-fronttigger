@@ -6,7 +6,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/no-inferrable-types': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
-    '@typescript-eslint/explicit-member-accessibility': 'error',
+    '@typescript-eslint/explicit-member-accessibility': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
     'no-use-before-define': 'off',

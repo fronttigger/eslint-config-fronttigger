@@ -5,5 +5,6 @@ module.exports = {
     'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 0,
+    'jsx-quotes': 0,
   },
 }
