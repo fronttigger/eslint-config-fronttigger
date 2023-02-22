@@ -8,7 +8,8 @@ on:
 
 env:
   NODE_VERSION: '16.x'
-  NPM_REGISTRY_URL: 'https://npm.pkg.github.com/'
+  NPM_REGISTRY_URL: 'https://registry.npmjs.org'
+  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
   lint:
