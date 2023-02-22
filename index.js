@@ -4,12 +4,9 @@ module.exports = {
     'prettier',
     'plugin:import/recommended',
     'plugin:promise/recommended',
-    ...[
-      './rules/base',
-      './rules/prettier',
-      './rules/promise',
-      './rules/import',
-    ].map(require.resolve),
+    ...['./rules/base', './rules/prettier', './rules/promise', './rules/import'].map(
+      require.resolve,
+    ),
   ],
   env: {
     commonjs: true,
@@ -37,4 +34,4 @@ module.exports = {
       },
     },
   ],
-};
+}

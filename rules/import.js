@@ -9,13 +9,7 @@ module.exports = {
           order: 'asc',
           caseInsensitive: false,
         },
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          ['sibling', 'index', 'parent'],
-          'type',
-        ],
+        groups: ['builtin', 'external', 'internal', ['sibling', 'index', 'parent'], 'type'],
         pathGroups: [
           {
             pattern: '{react*,react*/**,next*,next*/**}',
@@ -77,4 +71,4 @@ module.exports = {
      */
     'import/no-mutable-exports': 'off',
   },
-};
+}
