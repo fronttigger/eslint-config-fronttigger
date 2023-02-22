@@ -1,12 +1,15 @@
-// https://eslint.org/docs/user-guide/getting-started
 module.exports = {
-  parser: '@babel/eslint-parser',
   extends: [
-    'eslint:recommended',
+    'airbnb',
+    'prettier',
     'plugin:import/recommended',
     'plugin:promise/recommended',
-    'standard',
-    ...['./rules/base', './rules/import', './rules/prettier'].map(require.resolve),
+    ...[
+      './rules/base',
+      './rules/prettier',
+      './rules/promise',
+      './rules/import',
+    ].map(require.resolve),
   ],
   env: {
     commonjs: true,
@@ -25,8 +28,8 @@ module.exports = {
       ],
       settings: {
         /**
-         * import plugin with Typescript configuration
-         * https://github.com/alexgorbatchev/eslint-import-resolver-typescript#configuration
+         * @description import plugin with Typescript configuration
+         * @link https://github.com/alexgorbatchev/eslint-import-resolver-typescript#configuration
          */
         'import/parsers': {
           '@typescript-eslint/parser': ['.ts', '.tsx'],
@@ -34,4 +37,4 @@ module.exports = {
       },
     },
   ],
-}
+};

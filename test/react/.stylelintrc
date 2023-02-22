@@ -1,4 +1,5 @@
 {
+  "root": true,
   "extends": "./stylelint.js",
   "parserOptions": {
     "requireConfigFile": false

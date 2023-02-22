@@ -1,11 +1,8 @@
 module.exports = {
   extends: [
     './index.js',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended',
-    'standard-jsx',
-    ...['./rules/react', './rules/react-hooks'].map(require.resolve),
+    'airbnb/hooks',
+    ...['./rules/react', './rules/react-hooks', './rules/jsx-a11y'].map(require.resolve),
   ],
   settings: {
     react: {
