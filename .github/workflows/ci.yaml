@@ -21,6 +21,8 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: ${{ env.NPM_REGISTRY_URL }}
 
+      - uses: actions/checkout@v3
+
       - name: 🗂 depenency install
         run: npm install
 
