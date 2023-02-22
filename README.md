@@ -1,4 +1,4 @@
-# eslint-config-codestates
+# eslint-config-fronttigger
 
 fronttigger의 공통 린트 규칙 모음입니다.
 
