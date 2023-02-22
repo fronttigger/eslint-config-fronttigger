@@ -22,7 +22,7 @@ jobs:
           registry-url: ${{ env.NPM_REGISTRY_URL }}
 
       - name: 🗂 depenency install
-        run: npm ci
+        run: npm install
 
       - name: ✅ check lint
         run: npm run lint

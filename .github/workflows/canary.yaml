@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: 🗂 depenency install
-        run: npm ci
+        run: npm install
 
       - name: 🦜 canary deploy
         run: npm run deploy:canary
