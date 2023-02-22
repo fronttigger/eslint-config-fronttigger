@@ -1,5 +1,6 @@
 {
-  "extends": "./stylelint.js",
+  "root": true,
+  "extends": "../../index.js",
   "parserOptions": {
     "requireConfigFile": false
   }
